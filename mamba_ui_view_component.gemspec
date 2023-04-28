@@ -6,10 +6,10 @@ Gem::Specification.new do |spec|
   spec.name = "mamba_ui_view_component"
   spec.version = MambaUiViewComponent::VERSION
   spec.authors = ["Facundo Espinosa"]
-  spec.email = ["facundo.espinosa@fing.edu.uy"]
+  spec.email = ["facundo.espinosa@hey.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
+  spec.summary = "A Ruby gem to provide Mamba UI components as View Components for Rails apps"
+  spec.description = "This gem provides a collection of Mamba UI components as View Components for easy integration into your Rails app. The components have been manually added to the gem and are ready to use out of the box. Simply install the gem, add the desired component to your view, and you're good to go!"
   spec.homepage = "TODO: Put your gem's website or public repo URL here."
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
