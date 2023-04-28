@@ -1,24 +1,28 @@
-# MambaUiViewComponent
+# Mamba UI to View Component
 
-TODO: Delete this and the text below, and describe your gem
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/mamba_ui_view_component`. To experiment with that code, run `bin/console` for an interactive prompt.
+This gem provides a collection of Mamba UI components as View Components for easy integration into your Rails app. The components have been manually added to the gem and are ready to use out of the box. Simply install the gem, add the desired component to your view, and you're good to go!
 
 ## Installation
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
+Add this line to your application's Gemfile:
 
-Install the gem and add to the application's Gemfile by executing:
+```ruby
+gem 'mamba_ui_to_view_component'
+```
 
-    $ bundle add UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
+And then execute:
 
-If bundler is not being used to manage dependencies, install the gem by executing:
-
-    $ gem install UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
+```bash
+$ bundle install
+````
 
 ## Usage
 
-TODO: Write usage instructions here
+To use a Mamba UI component in your view, simply add the desired View Component to your view:
+
+```erb
+<%= render MambaUiToViewComponent::ButtonComponent.new(text: "Click me!") %>
+```
 
 ## Development
 
